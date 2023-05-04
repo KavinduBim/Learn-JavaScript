@@ -7,7 +7,16 @@ console.log(num+3);
 
 //constant
 
+/*
 let radius = 4
 const pi = 3.14
 
 console.log("Area of the circle is " + (pi*radius*radius))
+*/
+
+//String concatenation
+
+let firstName = "Naween"
+let lastName = "Kohli"
+
+console.log(firstName + " " + lastName)
