@@ -37,4 +37,9 @@ let sum = add;
 let result = sum(6,7);
 console.log(result);
 
+//Arrow Function
+let add1 = (num1,num2) => num1 + num2;
+
+console.log(add1(6,7))
+
 
