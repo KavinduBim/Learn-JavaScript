@@ -15,6 +15,7 @@ for(let key in alien.laptop){
 }
 */
 
+/*
 // object with methods
 let laptop2 = {
     cpu: 'i7',
@@ -46,3 +47,20 @@ let laptop1 = {
 
 laptop2.getConfig();
 laptop1.compare(laptop2);
+*/
+
+//constructor function
+function Alien(name, tech){
+    this.name = name;
+    this.tech = tech;
+
+    this.work = function(){
+        console.log("Solving bugs from 12hrs")
+    }
+}
+
+let alien1 = new Alien('Navin', 'JS');
+let alien2 = new Alien('Kiran','Blockchain');
+
+console.log(alien1);
+console.log(alien2);
